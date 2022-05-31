@@ -9,11 +9,11 @@
 }
 
 body{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 /* regole di debug */
-.debug nav, .debug .footer-top, .debug .bot-head>div, .debug .text,
+.debug nav, .debug ul, .debug .footer-top, .debug .bot-head>div,.debug .image, .debug .text,
  .debug .last, .debug .column-l, .debug .fine div{
     border: dashed black 2px;
 }
@@ -33,7 +33,6 @@ body{
 
 .debug .bot-head>div{
     background-color: violet;
-    border: dashed black 2px;
 }
 
 .debug .image{
@@ -78,26 +77,29 @@ body{
     width: 1170px;
 }
 
-nav{
+ul, nav{
     height: 50px;
-    line-height: 50px;
 }
 
 .logo{
     width: 25%;
-    padding-left: 10px;
+    padding: 10px;
 }
 
 .login{
     width: 25%;
     text-align: right;
-    padding-right: 10px;
+    padding: 10px;
 }
 
-.links{
+.navigator ul{
     width: 70%;
-    text-align: center;
+    padding: 10px;
+    list-style: none;
+    justify-content: space-evenly;
 }
+
+
 /* fine regole parte alta dell'header 
    e inizio regole parte bassa dell'header*/
 .bot-head{
