@@ -18,7 +18,15 @@ body{
     border-radius: 2em;
 }
 
+h1{
+    font-size: 3em;
+    font-weight: 700;
+}
 
+p{
+    font-size: 20px;
+    font-weight: 500;
+}
 /* regole di debug */
 .debug nav, .debug ul, .debug .footer-top, .debug .bot-head>div,.debug .image, .debug .text,
  .debug .last, .debug .column-l, .debug .fine div{
@@ -102,6 +110,10 @@ ul, nav{
     justify-content: right;
 }
 
+.login button{
+    background-color: #fff;
+}
+
 .navigator ul{
     width: 70%;
     padding: 10px;
@@ -125,10 +137,44 @@ ul, nav{
     height: 400px;
     width: 950px;
     margin: 0 auto;
+    color: #fff;
+    text-align: center;
 }
+
+.bot-head h1{
+    padding-top: 85px;
+    padding-bottom: 35px;
+}
+
+.bot-head p{
+    max-width: 75%;
+    line-height: 1.5em;
+    margin: auto;
+}
+
+.scarica-apri{
+
+}
+
+.scarica{
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0.5em;
+}
+
+.apri{
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0.5em;
+    height: 59px;
+}
+ 
 /* fine regole parte bassa dell'header 
    e inizio regole delle sezioni del main */
-main>section{
+main > section{
     padding: 50px;
 }
 
