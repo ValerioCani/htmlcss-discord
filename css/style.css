@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+.flex{
+    display: flex;
+}
+
+body{
+    font-size: 25px;
+}
+
+/* regole di debug */
+.debug nav, .debug .footer-top, .debug .bot-head>div, .debug .text,
+ .debug .last, .debug .column-l, .debug .fine div{
+    border: dashed black 2px;
+}
+
+.debug .top-head{
+    background-color: aqua;
+}
+
+.debug .navigator{
+    background-color:rgb(240, 202, 80);
+}
+
+
+.debug .bot-head{
+    background-color: blue;
+}
+
+.debug .bot-head>div{
+    background-color: violet;
+    border: dashed black 2px;
+}
+
+.debug .image{
+    background-color: deepskyblue;
+}
+
+.debug .text{
+    background-color: peachpuff;
+}
+
+.debug .last{
+    background-color: green;
+}
+
+.debug .column-l{
+    background-color: darksalmon;
+}
+
+.debug .column-s{
+    background-color: darkcyan;
+    border: dashed white 2px;
+}
+
+.debug .fine{
+    background-color:lightgreen;
+}
+
+.debug .fine div{
+    background-color: indianred;
+}
+
+/* fine regole di debug */
+/* inizio regole parte alta dell'header */
+
+.top-head{
+    height:80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigator{
+    width: 1170px;
+}
+
+nav{
+    height: 50px;
+    line-height: 50px;
+}
+
+.logo{
+    width: 25%;
+    padding-left: 10px;
+}
+
+.login{
+    width: 25%;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.links{
+    width: 70%;
+    text-align: center;
+}
+/* fine regole parte alta dell'header 
+   e inizio regole parte bassa dell'header*/
+.bot-head{
+    padding: 50px;
+}   
+
+.bot-head > div{
+    height: 400px;
+    width: 950px;
+    margin: 0 auto;
+}
+/* fine regole parte bassa dell'header 
+   e inizio regole delle sezioni del main */
+main>section{
+    padding: 50px;
+}
+
+.main1 div{
+    justify-content: center;
+}
+
+main>section:nth-child(2n){
+    background-color: lightgray;
+}
+
+.image{
+    height: 500px;
+    width: 700px;
+}
+
+.text{
+    height: 500px;
+    width: 470px;
+}
+
+.last{
+    width: 1170px;
+    height: 1000px;
+    margin: auto;
+}
+/* fine regole della sezione main 
+   e inizio regole sezione footer */
+footer{
+    background-color: black;
+    padding-top: 5px;
+}
+
+.footer-top{
+    width: 1170px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.column-l{
+    height: 700px;
+    width: 32%;
+}
+
+.column-s{
+    height: 700px;
+    width: 17%;
+}
+
+hr{
+    background-color: white;
+}
+
+.fine{
+    height: 80px;
+    width: 1170px;
+    margin: auto;
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fine div{
+    height: 1.5em;
+}
