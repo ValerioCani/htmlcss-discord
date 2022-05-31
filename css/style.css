@@ -9,8 +9,15 @@
 }
 
 body{
-    font-size: 20px;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
+.stile-bottone{
+    padding: 0.8em 1.3em;
+    border:none;
+    border-radius: 2em;
+}
+
 
 /* regole di debug */
 .debug nav, .debug ul, .debug .footer-top, .debug .bot-head>div,.debug .image, .debug .text,
@@ -71,10 +78,12 @@ body{
     height:80px;
     justify-content: center;
     align-items: center;
+    background-color: #255EE9;
 }
 
 .navigator{
-    width: 1170px;
+max-width: 1200px;
+width: 100%;
 }
 
 ul, nav{
@@ -88,15 +97,18 @@ ul, nav{
 
 .login{
     width: 25%;
-    text-align: right;
     padding: 10px;
+    align-items: center;
+    justify-content: right;
 }
 
 .navigator ul{
     width: 70%;
     padding: 10px;
+    color: #fff;
     list-style: none;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 
@@ -104,6 +116,9 @@ ul, nav{
    e inizio regole parte bassa dell'header*/
 .bot-head{
     padding: 50px;
+    background-image: url(../img/jumbo.png);
+    background-size:cover;
+    background-position: center;
 }   
 
 .bot-head > div{
