@@ -201,9 +201,12 @@ main>section:nth-child(2n){
     padding-right: 60px;
 }
 
+.main2{
+    height: fit-content;
+}
 .last{
     width: 1170px;
-    height: 1000px;
+    height: fit-content;
     margin: auto;
     text-align: center;
 }
@@ -223,13 +226,14 @@ main>section:nth-child(2n){
 
 .messaggio-finale{
     height:fit-content;
-    width: 531px;
+    width: 50%;
     margin: auto;
     padding-top: 50px;
     background-image: url(../img/stars.svg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    font-size: 20px;
 }
 
 .scarica2{
@@ -237,33 +241,64 @@ main>section:nth-child(2n){
     background-color: #7289DA;
     font-size: 20px;
     font-weight: 500;
-    margin: 0.5em;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 /* fine regole della sezione main 
    e inizio regole sezione footer */
 footer{ 
     background-color: #23272A;
-    padding-top: 5px;
+    padding: 70px;
 }
 
 .footer-top{
     width: 1170px;
+    border-bottom: solid 1px #7289DA;
     margin: auto;
     margin-bottom: 20px;
+    color: #fff;
 }
 
 .column-l{
-    height: 700px;
-    width: 32%;
+    height: 500px;;
+    width: 28%;
+}
+
+.footer-top h2{
+    color: #7289DA;
+    font-size: 2em;
+}
+
+.column-l div{
+    align-items: center;
+}
+
+.lingua{
+    width: 30px;
+    margin: 20px 5px;
+}
+
+.column-l p{
+    font-size: 15px;
+}
+
+i{
+    color: #fff;
+    font-size: 20px;
+    margin: 10px;
 }
 
 .column-s{
-    height: 700px;
-    width: 17%;
+    height: 500px;
+    width: 18%;
 }
 
-hr{
-    background-color: white;
+.column-s ul{
+    list-style: none;
+    line-height: 2.5em;
+}
+.footer-top h3{
+    color: #7289DA;
 }
 
 .fine{
@@ -275,6 +310,7 @@ hr{
     align-items: center;
 }
 
-.fine div{
-    height: 1.5em;
+.fine button{
+    color: #F5F5F5;
+    background-color: #7289DA;
 }
