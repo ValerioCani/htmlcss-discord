@@ -13,7 +13,7 @@ body{
 }
 
 .stile-bottone{
-    padding: 0.8em 1.3em;
+    padding: 0.6em 1.3em;
     border:none;
     border-radius: 2em;
 }
@@ -26,6 +26,7 @@ h1{
 p{
     font-size: 20px;
     font-weight: 500;
+    line-height: 1.5em;
 }
 /* regole di debug */
 .debug nav, .debug ul, .debug .footer-top, .debug .bot-head>div,.debug .image, .debug .text,
@@ -148,12 +149,7 @@ ul, nav{
 
 .bot-head p{
     max-width: 75%;
-    line-height: 1.5em;
     margin: auto;
-}
-
-.scarica-apri{
-
 }
 
 .scarica{
@@ -164,7 +160,7 @@ ul, nav{
 }
 
 .apri{
-    background-color: #000;
+    background-color: #23272A;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
@@ -175,7 +171,7 @@ ul, nav{
 /* fine regole parte bassa dell'header 
    e inizio regole delle sezioni del main */
 main > section{
-    padding: 50px;
+    padding: 100px;
 }
 
 .main1 div{
@@ -183,7 +179,7 @@ main > section{
 }
 
 main>section:nth-child(2n){
-    background-color: lightgray;
+    background-color: #F5F5F5;
 }
 
 .image{
@@ -196,15 +192,57 @@ main>section:nth-child(2n){
     width: 470px;
 }
 
+.text h1{
+    margin: 30px 0;
+    padding-right: 60px;
+}
+
+.text p{
+    padding-right: 60px;
+}
+
 .last{
     width: 1170px;
     height: 1000px;
     margin: auto;
+    text-align: center;
+}
+
+.last h1{
+    margin: 30px 0;
+}
+
+.last-text{
+    width: 85%; 
+    margin: auto;
+}
+
+.last img{
+    width: 1170px;   
+}
+
+.messaggio-finale{
+    height:fit-content;
+    width: 531px;
+    margin: auto;
+    padding-top: 50px;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.scarica2{
+    color: #fff;
+    background-color: #7289DA;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0.5em;
 }
 /* fine regole della sezione main 
    e inizio regole sezione footer */
-footer{
-    background-color: black;
+footer{ 
+    background-color: #23272A;
     padding-top: 5px;
 }
 
